@@ -1,0 +1,48 @@
+.marquee {
+
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    border: 3px solid green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    color: green;
+}
+
+.small-image {
+ width: 100px; /* Set the width of the image */
+ height: 100px; /* Set the height of the image */
+ object-fit: cover; /* Control how the image is resized */
+}
+.hi{
+	width: 100%;
+ 	border: 2px;
+  	margin: 0;
+  	background-color: green;
+  	color: white;
+  	padding-top: 20px;
+  	font-size: 30px;
+    padding-bottom: 20px;
+  }
+ table {
+ 			padding: 50px;
+ 			height: 10vh;
+ 			margin: 10px;
+ 			border: 5px solid Lightgreen;
+ 			flex-direction:  column;
+            border-collapse: collapse;
+            width: 100%;
+        }
+          
+        th, td {
+        	padding: 8px;
+        	border: 5px solid lightgreen;
+            text-align: center;
+            padding: 8px;
+
+        }
+          
+        tr:nth-child(even) {
+            background-color: Lightgreen;
+        }
